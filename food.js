@@ -3,7 +3,7 @@ class Food {
 
         this.foodStock = 20;
         this.lastFed = 0;
-        this.image = loadImage("images/Milk.png");
+        this.image = loadImage("Milk.png");
 
         database = firebase.database();
     }
